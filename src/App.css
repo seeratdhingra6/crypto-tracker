@@ -1,0 +1,30 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f9f5f5;
+  color: black;
+  font-family: sans-serif;
+  margin: 40px;
+}
+
+.appRoot {
+  display: flex;
+  gap: 40px;
+}
+
+.appScreen {
+  flex: 1;
+}
+
+@media screen and (max-width: 800px){
+  body {
+    margin: 10px;
+  }
+  .appRoot {
+    flex-direction: column;
+    width: 100%;
+    gap: 15px;
+  }
+}

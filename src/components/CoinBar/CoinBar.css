@@ -1,0 +1,37 @@
+.greenColor {
+    color: green;
+}
+
+.redColor {
+    color: red;
+}
+.coinContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 15px;
+    gap: 15px;
+    border: 1px solid rgb(212, 209, 209);
+    border-radius: 4px;
+    &:hover {
+        box-shadow: 5px 5px rgba(212, 209, 209, 0.292);
+        cursor: pointer;
+    }
+}
+.coinContainerHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.coinSymbol {
+    font-size: 24px;
+    font-weight: 500;
+    color: navy;
+}
+
+.coinChange {
+    font-size: 20px;
+}
+.coinPrice {
+    font-size: 20px;
+}

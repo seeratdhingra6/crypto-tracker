@@ -1,0 +1,93 @@
+.dashboardRoot {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.dashboardShowcase {
+  display: flex;
+  gap: 30px;
+  width: 100%;
+}
+
+.dashboardCoinList {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  flex: 2;
+}
+
+.dashboardActiveCoinContainer {
+  background-color: #fff;
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(212, 209, 209);
+  border-radius: 4px;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.stat {
+  color: navy;
+}
+
+.greenColor {
+  color: green;
+}
+
+.redColor {
+  color: red;
+}
+
+.dashboardChart {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: white;
+  border: 1px solid rgb(212, 209, 209);
+  border-radius: 4px;
+  max-width: 100%;
+}
+
+.dashboardChartSelect {
+  width: 100px;
+  margin-left: auto;
+}
+
+.activeCoinImage {
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 800px) {
+  .dashboardRoot {
+    gap: 15px;
+  }
+  .dashboardShowcase {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .dashboardCoinList {
+    gap: 15px;
+  }
+  .activeCoinImage {
+    height: 100px;
+  }
+
+  .dashboardActiveCoinContainer {
+    padding: 15px;
+  }
+  h2 {
+    margin: 10px;
+  }
+}

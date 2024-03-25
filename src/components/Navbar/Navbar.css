@@ -1,0 +1,57 @@
+.logo {
+  font-size: 1.5em;
+  margin-bottom: 40px;
+}
+.navbar {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 15px;
+  width: 100%;
+  max-width: 300px;
+  border: 1px solid rgb(212, 209, 209);
+  border-radius: 4px;
+}
+
+.navbarOptions {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 20px;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  text-align: left;
+  font-size: 20px;
+  font-size: 500;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.active {
+  color: navy;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 800px) {
+  .logo {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .navbar {
+    width: 100%;
+    max-width: 100%;
+    flex: 1;
+  }
+  .navbarOptions {
+    gap: 10px;
+  }
+  button {
+    font-size: 16px;
+    font-size: 400;
+  }
+}

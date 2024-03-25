@@ -1,0 +1,24 @@
+.searchContainer {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  grid-gap: 20px;
+}
+
+.searchInput {
+  place-self: center left;
+  background-color: #010e2c;
+  color: #1163c9;
+  border: 1px solid;
+  font-size: 2em;
+  margin: 5px;
+  height: 40px;
+  line-height: 40px;
+  width: 80%;
+}
+
+.whiteText {
+  text-align: center;
+  font-size: 1em;
+  color: white;
+}
